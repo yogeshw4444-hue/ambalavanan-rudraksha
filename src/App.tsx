@@ -12,7 +12,6 @@ import { Footer } from './components/Footer';
 import { MobileBottomBar } from './components/MobileBottomBar';
 import { SearchBarModal } from './components/SearchBarModal';
 import { SacredCarousel } from './components/SacredCarousel';
-import { SpiritualGameSection } from './components/SpiritualGameSection';
 
 export default function App() {
   const [isTamil, setIsTamil] = useState<boolean>(false);
@@ -68,13 +67,10 @@ export default function App() {
         {/* 7. About Us Section */}
         <AboutSection isTamil={isTamil} />
 
-        {/* 6. Sacred Mini-Game & Spiritual Sadhana Arena */}
-        <SpiritualGameSection isTamil={isTamil} />
-
-        {/* 7. FAQ Section */}
+        {/* 8. FAQ Section */}
         <FaqSection isTamil={isTamil} />
 
-        {/* 7. Contact Section with Theni location and WhatsApp form */}
+        {/* 9. Contact Section with Theni location and WhatsApp form */}
         <ContactSection isTamil={isTamil} />
       </main>
 
